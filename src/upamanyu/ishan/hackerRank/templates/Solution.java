@@ -1,4 +1,4 @@
-package upamanyu.ishan.templates;
+package upamanyu.ishan.hackerRank.templates;
 
 import java.util.Scanner;
 
