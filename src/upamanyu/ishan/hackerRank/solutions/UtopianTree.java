@@ -21,7 +21,6 @@ public class UtopianTree {
 	 */
 	private static  int calculateHeight(int numCycles){
 		int height = INITIAL_HEIGHT;
-		
 		for(int i=1; i<=numCycles; i++){
 			if ( i%2 == 0){
 				height+=1;
@@ -39,9 +38,11 @@ public class UtopianTree {
 		t = in.nextInt();
 		for (int i = 0; i < t; i++) {
 			a = in.nextInt();
-			
 			height = calculateHeight(a);
 			System.out.println(height);
+		
+			
+			
 		}
 	}
 }
