@@ -13,10 +13,11 @@ public class UtopianTree {
 	private static final int INITIAL_HEIGHT = 1;
 	
 	/**
-	 * Calculate height.
+	 * Calculate height of Utopian tree after given number of
+	 * cycles.
 	 *
-	 * @param numCycles the num cycles
-	 * @return the int
+	 * @param numCycles the numuber of growth cycles
+	 * @return the height after given cycles
 	 */
 	private static  int calculateHeight(int numCycles){
 		int height = INITIAL_HEIGHT;
